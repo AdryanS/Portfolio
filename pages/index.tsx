@@ -4,10 +4,23 @@ import React from 'react';
 
 const Home: React.FC = () => {
   return(
-    <div>
-      <h1>hello</h1>
-
-      <img src="img/tecnologias/javascript.png" alt="js" width="64px" height="64px" style={{borderRadius: "10px"}} />
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+        backgroundColor: "#181818",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}
+    >
+      <h1 style={{
+          margin: "0px",
+          color: "#858585"
+        }}
+      >
+        Projeto Com TypeScript E NextJS
+      </h1>
     </div>
   );
 }
