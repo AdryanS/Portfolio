@@ -9,15 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "^16.7.1",
-    "@types/react": "^17.0.19",
+    "lottie-react-web": "^2.2.2",
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "styled-components": "^5.3.3",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "@types/node": "^16.7.1",
+    "@types/react": "^17.0.19",
+    "@types/styled-components": "^5.1.19",
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint": "^8.6.0",
+    "eslint-config-next": "^12.0.7"
   }
 }
