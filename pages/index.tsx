@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from "react";
+import Home from "src/components/index";
 
-// import { Container } from './styles';
-
-const Home: React.FC = () => {
-  return <div></div>;
+const Index: React.FC = () => {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 };
 
-export default Home;
+export default Index;
