@@ -1,10 +1,14 @@
-import Home from "src/components/index";
+import BackgroundParticle from "src/components/background";
+import { Text } from "src/components/text";
+
 
 const Index: React.FC = () => {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      <BackgroundParticle/>
+
+      <Text />
+    </>
   );
 };
 
