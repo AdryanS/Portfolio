@@ -5,6 +5,7 @@ export const Text = () => {
         <Container>
             <p>Hello, i'm</p>
             <h1>Adryan Samuel</h1>
+            <h2>Full-Stack Developer</h2>
         </Container>
     )
 }
