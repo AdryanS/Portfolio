@@ -1,9 +1,9 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
-:root {
+* {
   /* cores: */
   --roxo: #5352ed;
   --azul: #9fe8ff;
@@ -12,7 +12,7 @@
   --preto: #262626;
   --erro: #fc4343;
   --acerto: #7fff7c;
-
+  
   /* tamanhos: */
   --defalt: 8px;
   --rem_100: 1rem;
