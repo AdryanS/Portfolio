@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
         flex-direction: column;
         justify-content: center;
 
-        div:first-child {
+        .mgbt {
             margin-bottom: 32px;
         }
     } 

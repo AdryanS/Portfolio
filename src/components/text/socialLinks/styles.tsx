@@ -18,4 +18,10 @@ export const Container = styled.div`
     .margin {
         margin: 0 58px;
     }
+
+    @media (max-width: 700px) {
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 `;
