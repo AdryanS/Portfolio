@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
-    margin-top:64px ;
+    margin-top: 64px;
     div {
         width: 48px;
         height: 48px;
@@ -16,6 +16,6 @@ export const Container = styled.div`
     }
     
     .margin {
-        margin: 0 96px;
+        margin: 0 58px;
     }
 `;

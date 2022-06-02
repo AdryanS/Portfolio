@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
 export const Container  = styled.div`
-    width: 608px;
-    height: 294px;
-    margin: 256px 0 0 140px ;
     color: var(--branco);
     p {
-        width:128px;
+        width: 152px;
         height: 32px;
         background-color: var(--roxo);
         display: flex;
@@ -26,6 +23,7 @@ export const Container  = styled.div`
         font-style: normal;
         font-weight: 500;
         font-size: 64px;
+        line-height: 87px;
         display: flex;
         align-items: center;
     }
