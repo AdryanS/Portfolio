@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
         h2 {
             font-size: 24px;
         }
-        p {
+        .paragraph {
             font-size:16px;
         }
     } 

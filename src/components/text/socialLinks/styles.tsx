@@ -12,7 +12,15 @@ export const Container = styled.div`
         justify-content: center;
         border-radius: 6px;
         filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.15));
-        background-color: var(--roxo);
+        background: rgba(38, 38, 38, 0.75);
+        border: 1px solid #5352ED;
+        border-radius: 6px;
+        backdrop-filter: blur(2px);
+
+        a {
+            width: 32px;
+            height: 32px;
+        }
     }
     
     .margin {
