@@ -1,8 +1,13 @@
+import Head from "next/head";
 import "../src/styles/globals.css"
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
+      <Head>
+        <title>AdryanS | Portfolio</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <Component {...pageProps} />
     </div>
   );

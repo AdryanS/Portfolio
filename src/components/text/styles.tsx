@@ -5,7 +5,8 @@ export const Container  = styled.div`
     p {
         width: 152px;
         height: 32px;
-        background-color: var(--roxo);
+        background: rgba(38, 38, 38, 0.25);
+        border: 1px solid #5352ED;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -14,7 +15,10 @@ export const Container  = styled.div`
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.15));
+        filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.15));
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
     }
 
     h1 {
@@ -26,6 +30,7 @@ export const Container  = styled.div`
         line-height: 87px;
         display: flex;
         align-items: center;
+        margin-top: 8px;
     }
     h2 {
         height: 38px;

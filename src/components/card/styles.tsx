@@ -5,19 +5,20 @@ export const Container = styled.div`
     height: 384px;
     margin-bottom: 32px;
 
-    /* filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.15)) saturate(0) brightness(0.9) opacity(1); */
     animation: 3s opacit ease-in;
-    background: rgba(38, 38, 38, 0.75);
 
-    border: 1px solid var(--roxo);
-    border-radius: 11px;
-
+    background: rgba( 38, 38, 38, 0.05 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    /* justify-content: center; */
     display: flex;
     align-items: center;
     flex-direction: column;
-    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25));
-    backdrop-filter: blur(4px);
-    /* justify-content: center; */
+    
+    border: 1px solid #5352ED;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
 
     h3 {
         width: 272px;
@@ -81,12 +82,18 @@ export const Container = styled.div`
     @keyframes opacit {
         0% {
             filter: opacity(0);
+            backdrop-filter: blur( 0 );
+            -webkit-backdrop-filter: blur( 0 );
         }
         75% {
             filter: opacity(0);
+            backdrop-filter: blur( 0 );
+            -webkit-backdrop-filter: blur( 0 );
         }
         100% {
             filter: opacity(1) ;
+            backdrop-filter: blur( 3.5px );
+            -webkit-backdrop-filter: blur( 3.5px );
         }
     }
 `;

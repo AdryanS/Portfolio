@@ -16,6 +16,7 @@ export const Container = styled.div`
         border: 1px solid #5352ED;
         border-radius: 6px;
         backdrop-filter: blur(2px);
+        box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.10);
 
         a {
             width: 32px;
