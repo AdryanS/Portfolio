@@ -30,7 +30,7 @@ export const Container = styled.div`
 
     @media (max-width: 700px) {
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 `;
