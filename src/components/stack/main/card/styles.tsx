@@ -155,13 +155,13 @@ export const PopUp = styled.div`
     padding: 24px 64px;
     
     img {
-      width: 100%;
+      width: 60%;
       height: 180px;
     }
 
-    .textsProjects {
-      width: 100%;
-      
+    .textsStack {
+      width: 300px;
+
       h2 {
         font-size: 18px;
       }
@@ -171,6 +171,7 @@ export const PopUp = styled.div`
       }
       p {
         font-size: 10px;
+        margin-bottom: 16px; 
       }
     }
 

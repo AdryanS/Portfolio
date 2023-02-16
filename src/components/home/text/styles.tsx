@@ -30,7 +30,7 @@ export const Container  = styled.div`
         font-style: normal;
         font-weight: 500;
         font-size: 64px;
-        line-height: 87px;
+        line-height: 45px;
         display: flex;
         align-items: center;
         margin-top: 8;
