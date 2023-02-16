@@ -30,7 +30,7 @@ export const ProjectCard = ({description,image,nome,repo,site,title}:IDataProps)
           style={{
             width: "100%",
             height: "100%",
-            position: "absolute",
+            position: "fixed",
             top:0,
             backgroundColor: "rgba(0, 0, 0, 0.3)",
             zIndex: 1,

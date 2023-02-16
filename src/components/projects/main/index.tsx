@@ -9,6 +9,7 @@ export const ProjectMain = () => {
   return (
     <Container>
           {ProjectData.map((project) => (
+            <React.Fragment key={project._id}>
               <ProjectCard
                 description={project.description}
                 image={project.image}
@@ -17,6 +18,7 @@ export const ProjectMain = () => {
                 site={project.site}
                 title={project.title}
               />
+            </React.Fragment>
           ))}
     </Container>
   );
