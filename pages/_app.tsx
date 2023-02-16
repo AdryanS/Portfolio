@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>AdryanS | Portfolio</title>
+        <title>Adryan Rodrigues | Portfolio</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
