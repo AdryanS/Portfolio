@@ -11,7 +11,7 @@ export const ProjectData = [{
     "nome": "NLW#4 React",
     "site": "https://adryan-samuel-moveit-nlw4.vercel.app/",
     "repo": "https://github.com/AdryanS/nlwReact",
-    "image": "https://github.com/AdryanS/nlwReact/blob/main/NLW.png",
+    "image": "https://github.com/AdryanS/nlwReact/blob/main/NLW.jpg",
     "title": "O aplicativo com pomodoro onde cada pausa você faz um exercício",
     "description": "O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador."
 },{
@@ -27,7 +27,7 @@ export const ProjectData = [{
     "nome": "Projeto Agenda",
     "site": null,
     "repo": "https://github.com/AdryanS/projeto-agenda",
-    "image": "https://github.com/AdryanS/projeto-agenda/blob/main/Projeto%20Agenda.png",
+    "image": "https://github.com/AdryanS/projeto-agenda/blob/main/ProjetoAgenda.jpg",
     "title": "O Projeto Agenda foi desenvolvido para criar agendas de contatos",
     "description": "Uma pagina para entrar em sua conta e criar contatos. No login tem uma segurança de senhas, usando bcryptjs. O login também tem uma validação de e-mails e um CRUD de contatos"
 }]
