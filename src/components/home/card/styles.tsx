@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 320px;
-    height: 384px;
+    height: 440px;
     margin-bottom: 32px;
 
     animation: 1s opacit ease-in;
@@ -11,7 +11,6 @@ export const Container = styled.div`
     backdrop-filter: blur( 3.5px );
     -webkit-backdrop-filter: blur( 3.5px );
     border-radius: 10px;
-    /* justify-content: center; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -55,11 +54,12 @@ export const Container = styled.div`
         height: 32px;
         margin-top: calc(32px - 8px);
         background: var(--roxo);
-        border-radius: 7px;
+        border-radius: 4px;
         border-style: none;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
         filter: saturate(1);
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
 
         p {
             width:100%;

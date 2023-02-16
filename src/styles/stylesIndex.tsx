@@ -60,7 +60,7 @@ html {
     }
     .styleInfos {
         height: 100%;
-        margin-top: 128px;
+        margin-top: 64px;
         width: 320px;
         flex-direction: column;
         justify-content: center;
