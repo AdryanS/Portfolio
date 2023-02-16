@@ -1,12 +1,25 @@
 import {createGlobalStyle} from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+html {
+    background: #272829
+}
+
+
 .styleBody {
-  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.styleProject {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .styleInfos {

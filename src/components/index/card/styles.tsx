@@ -50,15 +50,16 @@ export const Container = styled.div`
         margin-bottom: 8px;
     }
 
-    /* button {
+    a {
         width: 192px;
         height: 32px;
         margin-top: calc(32px - 8px);
         background: var(--roxo);
         border-radius: 7px;
         border-style: none;
+        text-decoration: none;
         transition: all 0.3s ease-in-out;
-        filter: saturate(0);
+        filter: saturate(1);
 
         p {
             width:100%;
@@ -75,9 +76,9 @@ export const Container = styled.div`
         }
     }
 
-    button :hover{
-        filter: brightness(1.2) saturate(0);
-    } */
+    a :hover{
+        filter: brightness(1.2) saturate(0.8);
+    }
 
     @keyframes opacit {
         0% {

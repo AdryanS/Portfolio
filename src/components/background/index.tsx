@@ -17,10 +17,16 @@ const BackgroundParticle:React.FC = () => {
       options={{
         background: {
           color: {
-            value: "#262626",
+            value: "#272829",
           },
         },
-        fpsLimit: 120,
+        fpsLimit: 50,
+        style: {
+          top: "0px",
+          width: "100%",
+          height: "100vh",
+          position: "absolute",
+        },
         interactivity: {
           events: {
             onHover: {
@@ -59,8 +65,8 @@ const BackgroundParticle:React.FC = () => {
             outModes: {
               default: "bounce",
             },
-            random: false,
-            speed: 0.5,
+            random: true,
+            speed: 0.8,
             straight: false,
           },
           number: {
