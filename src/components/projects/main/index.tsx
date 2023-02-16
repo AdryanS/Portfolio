@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { ProjectCard } from "./card";
 
-import { ProjectData } from "../../../utils/data";
+import { ProjectData } from "../../../utils/projetos";
 import { Container } from "./styles";
 
 export const ProjectMain = () => {

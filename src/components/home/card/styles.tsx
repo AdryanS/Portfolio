@@ -5,7 +5,7 @@ export const Container = styled.div`
     height: 384px;
     margin-bottom: 32px;
 
-    animation: 3s opacit ease-in;
+    animation: 1s opacit ease-in;
 
     background: rgba( 38, 38, 38, 0.05 );
     backdrop-filter: blur( 3.5px );

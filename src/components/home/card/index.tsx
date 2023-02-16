@@ -9,6 +9,7 @@ export const IndexCard = () => {
                     <p>Atuo como Desenvolvedor Full-Stack, com maior aptidão em Front-End desde 2020, onde comecei a aprender ainda no Ensino Médio.</p>
                     <p>Estou em busca de uma oportunidade em TI para ampliar horizontes, meu currículo profissional e carreira como Desenvolvedor.</p>
                     <a href="#Projetos"><p>Ver projetos</p></a>
+                    <a href="CurriculoAdryanRodrigues.pdf" download={"CurriculoAdryanRodrigues.pdf"}><p>Baixar Curriculo</p></a>
             </Container>
         </>
     )

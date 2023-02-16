@@ -1,8 +1,10 @@
 import BackgroundParticle from "src/components/background";
-import { IndexText } from "src/components/index/text";
-import { IndexCard } from "src/components/index/card";
+import { IndexText } from "src/components/home/text";
+import { IndexCard } from "src/components/home/card";
 import {ProjectText} from "src/components/projects/text";
 import {ProjectMain} from "src/components/projects/main";
+import { StackText } from "src/components/stack/text";
+import {StackMain} from "src/components/stack/main";
 
 import GlobalStyle from "src/styles/stylesIndex";
 
@@ -20,6 +22,10 @@ const Index: React.FC = () => {
       <div id="Projetos" className="styleProject">
         <ProjectText />
         <ProjectMain />
+      </div>
+      <div id="Stack" className="styleProject">
+        <StackText />
+        <StackMain />
       </div>
     </>
   );

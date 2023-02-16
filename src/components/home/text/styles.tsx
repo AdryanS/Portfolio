@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container  = styled.div`
     color: var(--branco);
+    animation: 0.3s opacit ease-in;
+
     p {
         width: 152px;
         height: 32px;
@@ -14,6 +16,7 @@ export const Container  = styled.div`
         font-family: 'Nunito';
         font-style: normal;
         font-weight: 500;
+        margin-bottom: 32px;
         font-size: 18px;
         filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.15));
         backdrop-filter: blur( 3.5px );
@@ -30,7 +33,7 @@ export const Container  = styled.div`
         line-height: 87px;
         display: flex;
         align-items: center;
-        margin-top: 8px;
+        margin-top: 8;
     }
     h2 {
         height: 38px;
@@ -42,5 +45,23 @@ export const Container  = styled.div`
         display: flex;
         align-items: center;
         margin-top: 16px;
+    }
+
+    @keyframes opacit {
+        0% {
+            filter: opacity(0);
+            backdrop-filter: blur( 0 );
+            -webkit-backdrop-filter: blur( 0 );
+        }
+        75% {
+            filter: opacity(0);
+            backdrop-filter: blur( 0 );
+            -webkit-backdrop-filter: blur( 0 );
+        }
+        100% {
+            filter: opacity(1) ;
+            backdrop-filter: blur( 3.5px );
+            -webkit-backdrop-filter: blur( 3.5px );
+        }
     }
 `;

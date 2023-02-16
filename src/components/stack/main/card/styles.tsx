@@ -1,20 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 320px;
-  height: 185px;
+  width: 256px;
+  height: 168px;
   background: #2c2d2e;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   margin: 16px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  padding: 24px;
+  box-sizing: border-box;
 
   img {
-    width: 180px;
-    height: 100px;
+    width: 64px;
+    height: 64px;
     border-radius: 6px;
     margin: 8px;
     object-fit: cover;
@@ -22,10 +23,13 @@ export const Container = styled.div`
   }
 
   h3 {
+    width: 80px;
     color: var(--branco);
-    font-size: 14px;
-    font-weight: 500;
-    margin: 8px;
+    font-weight: 300;
+    margin-left: 16px;
+    width: 128px;
+    text-align: center;
+    font-size: 24px;
   }
 `;
 
@@ -76,22 +80,22 @@ export const PopUp = styled.div`
   animation: 0.5s opacit ease-in;
 
   img {
-    width: 400px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     margin-top: 40px;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     object-fit: cover;
-    object-position: top;
+    object-position: center;
   }
 
-  .textsProjects {
+  .textsStack {
     width: 400px;
 
     h2 {
       font-size: 24px;
       font-weight: 700;
-      margin-top: 8px;
+      margin-top: 16px;
       color: var(--branco);
     }
 
