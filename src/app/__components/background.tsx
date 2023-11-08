@@ -12,6 +12,16 @@ const BackgroundParticle:React.FC = () => {
     await loadFull(main);
   };
 
+  const themeColors = () => {
+    if(theme === "dark") {
+      return "#8541fa"
+    }  else if (theme === "light") {
+      return "#09050f"
+    } else {
+      return "#7f7f7f"
+    }
+  }
+
   return (
     <div className="w-full top-0 absolute -z-40">
 
@@ -46,10 +56,10 @@ const BackgroundParticle:React.FC = () => {
         },
         particles: {
           color: {
-            value: theme === "dark" ? "#8541fa" : "#09050f",
+            value: themeColors(),
           },
           links: {
-            color: theme === "dark" ? "#8541fa" : "#09050f",
+            color: themeColors(),
             distance: 150,
             enable: true,
             opacity: 0.5,
