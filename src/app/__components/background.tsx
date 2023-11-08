@@ -17,6 +17,8 @@ const BackgroundParticle:React.FC = () => {
       return "#8541fa"
     }  else if (theme === "light") {
       return "#09050f"
+    } else if (theme === "system") {
+      return "#936adb"
     } else {
       return "#7f7f7f"
     }
