@@ -10,12 +10,6 @@ export default function Home() {
       <IntroSection />
       <AboutSection />
       <StackSection />
-      <section id="contact">
-        <h1 className="text-primary">Investiment</h1>
-      </section>
-      <section id="faq">
-        <h1 className="text-primary">faq</h1>
-      </section>
     </main>
   );
 }
