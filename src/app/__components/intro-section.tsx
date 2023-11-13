@@ -4,22 +4,22 @@ import { buttonVariants } from "@/components/ui/button";
 import { ModeToggle } from "./mode-toggle";
 import { cn } from "@/lib/utils";
 
-import { useState, use, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export function IntroSection() {
   const stacks = ["Full-stack", "Front-end", "Back-end", "Mobile"];
   const [stack, setStack] = useState<number>(0);
   
   useEffect(() => {
-    setInterval(() => {
+    const timer = setInterval(() => {
       if(stack === stacks.length - 1) {
-        setStack(0)
-
-        return;
+        return setStack(0);
       }
 
       setStack(stack + 1)
-    }, 5000)  
+    }, 3000)
+
+    return () => clearInterval(timer)
   })
 
   return (
