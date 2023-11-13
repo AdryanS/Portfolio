@@ -18,7 +18,7 @@ const fontHeading = LocalFont({
 });
 
 export const metadata: Metadata = {
-  title: "The Next Dev - Full-stack NextJS 14",
+  title: "Adryan Rodrigues | Portfolio",
   description: "Curso Full-stack NextJS 14",
   keywords: [
     "NextJS",
