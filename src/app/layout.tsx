@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
@@ -49,7 +49,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+        <ThemeProvider attribute='class' defaultTheme='dark'>
           {children}
         </ThemeProvider>
       </body>

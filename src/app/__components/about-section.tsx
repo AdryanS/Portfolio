@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram, Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function AboutSection() {
   return (
@@ -35,16 +36,37 @@ export function AboutSection() {
             ampliar horizontes, meu currículo profissional e carreira como
             Desenvolvedor.
           </p>
-          <div className="mt-6 flex justify-center md:justify-start gap-6">
-            <Link className="group -m-1 p-1" href="https://github.com/AdryanS">
-              <Github className="g-6 w-6 text-zinc-500 transition group-hover:text-zinc-600 dark:text-zinc-400 dark:group-hover:text-zinc-300" />
-            </Link>
-            <Link className="group -m-1 p-1" href="https://www.linkedin.com/in/adryan-samuel/">
-              <Linkedin className="g-6 w-6 text-zinc-500 transition group-hover:text-zinc-600 dark:text-zinc-400 dark:group-hover:text-zinc-300" />
-            </Link>
-            <Link className="group -m-1 p-1" href="https://instagram.com/dev.adryan">
-              <Instagram className="g-6 w-6 text-zinc-500 transition group-hover:text-zinc-600 dark:text-zinc-400 dark:group-hover:text-zinc-300" />
-            </Link>
+          <div className="flex flex-row justify-between items-center">
+            <div className="my-6 flex justify-center md:justify-start gap-6">
+              <Link
+                className="group -m-1 p-1"
+                href="https://github.com/AdryanS"
+              >
+                <Github className="g-6 w-6 text-zinc-500 transition group-hover:text-zinc-600 dark:text-zinc-400 dark:group-hover:text-zinc-300" />
+              </Link>
+              <Link
+                className="group -m-1 p-1"
+                href="https://www.linkedin.com/in/adryan-samuel/"
+              >
+                <Linkedin className="g-6 w-6 text-zinc-500 transition group-hover:text-zinc-600 dark:text-zinc-400 dark:group-hover:text-zinc-300" />
+              </Link>
+              <Link
+                className="group -m-1 p-1"
+                href="https://instagram.com/dev.adryan"
+              >
+                <Instagram className="g-6 w-6 text-zinc-500 transition group-hover:text-zinc-600 dark:text-zinc-400 dark:group-hover:text-zinc-300" />
+              </Link>
+            </div>
+
+            <Button className="bg-background/0 border border-primary text-muted-foreground hover:bg-background/40 hover:text-secondary-foreground/70">
+              <a
+                href="CurriculoAdryanRodrigues.pdf"
+                download={"CurriculoAdryanRodrigues.pdf"}
+                className="flex flex-row justify-center gap-2"
+              >
+                Baixar CV <Download size={18} />
+              </a>
+            </Button>
           </div>
         </div>
       </div>

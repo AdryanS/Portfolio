@@ -15,13 +15,9 @@ const BackgroundParticle:React.FC = () => {
   const themeColors = () => {
     if(theme === "dark") {
       return "#8541fa"
-    }  else if (theme === "light") {
+    }  else {
       return "#09050f"
-    } else if (theme === "system") {
-      return "#936adb"
-    } else {
-      return "#7f7f7f"
-    }
+    } 
   }
 
   return (

@@ -5,7 +5,7 @@ import { StackSection } from "./__components/stack-session";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <BackgroundParticle />
       <IntroSection />
       <AboutSection />
