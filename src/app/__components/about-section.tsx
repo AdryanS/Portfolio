@@ -29,7 +29,7 @@ export function AboutSection() {
             @dev.adryan
           </h1>
           <p className="mt-6 text-base text-muted-foreground">
-            Olá, sou Adryan, 18 Anos, natural de Goianésia, Goiás, mas residente
+            Olá, sou Adryan, 20 Anos, natural de Goianésia, Goiás, mas residente
             em Brasília-DF. Atuo como Desenvolvedor Full-Stack, com maior
             aptidão em Front-End desde 2019, onde comecei a aprender ainda no
             Ensino Fundamental Estou em busca de uma oportunidade em TI para
