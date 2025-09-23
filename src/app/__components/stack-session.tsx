@@ -8,8 +8,8 @@ import {
 const content = [
   {
     id: 1,
-    title: "Typescript",
-    data: "A Linguegem Tipada",
+    title: "TypeScript",
+    data: "A linguegem tipada",
     content: [
       {
         id: 1,
@@ -43,6 +43,41 @@ const content = [
   },
   {
     id: 2,
+    title: "Zod",
+    data: "Uma biblioteca TypeScript-first para validação e definição de esquemas.",
+    content: [
+      {
+        id: 1,
+        title: "Definição de Esquemas Declarativos",
+      },
+      {
+        id: 2,
+        title: "Validação em Tempo de Execução",
+      },
+      {
+        id: 3,
+        title: "Inferência de Tipos Automática",
+      },
+      {
+        id: 4,
+        title: "Integração com TypeScript",
+      },
+      {
+        id: 5,
+        title: "Transformações e Refinamentos",
+      },
+      {
+        id: 6,
+        title: "Composição de Esquemas",
+      },
+      {
+        id: 7,
+        title: "Leve e Sem Dependências",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Stripe",
     data: "A API de pagamentos",
     content: [
@@ -77,37 +112,142 @@ const content = [
     ],
   },
   {
-    id: 3,
-    title: "Clerk",
-    data: "O Provedor de autenticação.",
+    id: 4,
+    title: "Supabase",
+    data: "A plataforma open source que fornece backend como serviço sobre PostgreSQL.",
     content: [
       {
         id: 1,
-        title: "Simplicidade de Integração",
+        title: "Banco de Dados em Tempo Real",
       },
       {
         id: 2,
-        title: "Segurança Avançada",
+        title: "Autenticação e Autorização Integradas",
       },
       {
         id: 3,
-        title: "Controle de Acesso",
+        title: "APIs Automáticas",
       },
       {
         id: 4,
-        title: "Customização e Marcação",
+        title: "Armazenamento de Arquivos",
       },
       {
         id: 5,
-        title: "Suporte a Vários Métodos de Autenticação",
+        title: "Edge Functions",
       },
       {
         id: 6,
-        title: "Monitoramento e Relatórios",
+        title: "Escalabilidade sobre PostgreSQL",
       },
       {
         id: 7,
-        title: "Atualizações Contínuas e Suporte Técnico",
+        title: "Painel de Administração Intuitivo",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Shadcn/ui",
+    data: "Um conjunto de componentes acessíveis e estilizados com Tailwind CSS para React.",
+    content: [
+      {
+        id: 1,
+        title: "Componentes Pré-Construídos",
+      },
+      {
+        id: 2,
+        title: "Totalmente Personalizável",
+      },
+      {
+        id: 3,
+        title: "Baseado em Tailwind CSS",
+      },
+      {
+        id: 4,
+        title: "Foco em Acessibilidade",
+      },
+      {
+        id: 5,
+        title: "Integração Simples com React e Next.js",
+      },
+      {
+        id: 6,
+        title: "Design Consistente e Escalável",
+      },
+      {
+        id: 7,
+        title: "Open Source e em Constante Evolução",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Rive",
+    data: "Ferramenta para criar e integrar animações interativas em tempo real.",
+    content: [
+      {
+        id: 1,
+        title: "Animações Vetoriais Interativas",
+      },
+      {
+        id: 2,
+        title: "State Machine para Controle",
+      },
+      {
+        id: 3,
+        title: "Integração com React e Web",
+      },
+      {
+        id: 4,
+        title: "Alto Desempenho em Tempo Real",
+      },
+      {
+        id: 5,
+        title: "Exportação Multiplataforma",
+      },
+      {
+        id: 6,
+        title: "Colaboração e Versionamento",
+      },
+      {
+        id: 7,
+        title: "Uso em Jogos, Apps e Web",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Socket.IO",
+    data: "Biblioteca para comunicação bidirecional em tempo real entre cliente e servidor.",
+    content: [
+      {
+        id: 1,
+        title: "Comunicação em Tempo Real",
+      },
+      {
+        id: 2,
+        title: "Suporte a WebSockets e Fallbacks",
+      },
+      {
+        id: 3,
+        title: "Broadcast de Eventos",
+      },
+      {
+        id: 4,
+        title: "Salas e Namespaces",
+      },
+      {
+        id: 5,
+        title: "Escalabilidade com Clusters",
+      },
+      {
+        id: 6,
+        title: "Reconexão Automática",
+      },
+      {
+        id: 7,
+        title: "Integração com Diversas Plataformas",
       },
     ],
   },
@@ -124,8 +264,8 @@ export function StackSection() {
           My Stack
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foregroundsm:text-lg sm:leading-7">
-          Essa e minha Stack, todas a tecnologias que tenho conhecimento e
-          tecnologias que estou estudando no momento.{" "}
+          Confira mais sobre as tecnologias que tenho conhecimento e que estou
+          em constante evolução de aprendizado.
         </p>
       </div>
 
@@ -350,8 +490,7 @@ export function StackSection() {
       </div>
       <div className="mx-auto text-center md:max-w-[58rem]">
         <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7 mb-4">
-          Tudo oque você está procurando para um desenvolvedor de alto nivel
-          está aqui.
+          Desenvolvimento de alto nível para empresas em evolução constante
         </p>
 
         <Accordion type="single" collapsible className="w-full">
@@ -367,10 +506,7 @@ export function StackSection() {
               </AccordionTrigger>
               <AccordionContent className="text-left gap-2">
                 {item.content.map((e) => (
-                  <div
-                    key={e.id}
-                    className="text-sm py-2"
-                  >
+                  <div key={e.id} className="text-sm py-2">
                     <p>{`Vantagem ${e.id}: ${e.title}`}</p>
                   </div>
                 ))}

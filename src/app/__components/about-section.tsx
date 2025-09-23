@@ -29,12 +29,22 @@ export function AboutSection() {
             @dev.adryan
           </h1>
           <p className="mt-6 text-base text-muted-foreground">
-            Olá, sou Adryan, 20 Anos, natural de Goianésia, Goiás, mas residente
-            em Brasília-DF. Atuo como Desenvolvedor Full-Stack, com maior
-            aptidão em Front-End desde 2019, onde comecei a aprender ainda no
-            Ensino Fundamental Estou em busca de uma oportunidade em TI para
-            ampliar horizontes, meu currículo profissional e carreira como
-            Desenvolvedor.
+            Olá! Sou desenvolvedor full-stack com maior foco e aptidão em
+            front-end. Tenho experiência em diversas tecnologias, como NextJS,
+            NuxtJS e NodeJS.
+          </p>
+          <p className="mt-6 text-base text-muted-foreground">
+            Participei de projetos como o desenvolvimento de aplicativos nativos
+            Android, focado em transporte e pagamentos online, onde utilizei
+            tecnologias como Expo. Mais recentemente, trabalhei no
+            desenvolvimento de uma plataforma de streaming, utilizando
+            websockets para comunicação em tempo real, API CRUD, e sistemas de
+            autenticação. Minha formação técnica é em Desenvolvimento Web, e
+            minhas habilidades incluem TypeScript, TailwindCSS, Git, e Figma.
+          </p>
+          <p className="mt-6 text-base text-muted-foreground">
+            Estou em busca de uma oportunidade em TI para ampliar horizontes,
+            meu currículo profissional e carreira como Desenvolvedor.
           </p>
           <div className="flex flex-row justify-between items-center">
             <div className="my-6 flex justify-center md:justify-start gap-6">
